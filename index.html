@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Jquery</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+</head>
+<body>
+    
+    <div class="container my-5" id="contenido">
+        <h1 class="display-4" id="idh1" >Hola</h1>
+        <h1>Holis</h1>
+        <img src="" alt="">
+        <h1 class="color-azul">Color Azul</h1>
+        <img src="" alt="">
+        <hr>
+        <h1>Eventos con Jquery</h1>
+        <button class="btn btn-primary">Agregar</button>
+        <button class="btn btn-danger">Quitar</button>
+        <button class="btn btn-warning">Toggle</button>
+
+        <div class="bg-dark text-white my-5" id="resultado">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, alias repellendus aliquam, ab quisquam rem iste suscipit saepe consequatur laudantium ipsa blanditiis voluptate labore laborum vero. Rerum debitis voluptate unde.</p>
+        </div>
+    </div>
+    <hr>
+    <div class="container my-5">
+        <h2>Evento keyup()</h2>
+        <input type="text" class="form-control" id="nombre" placeholder="Escribe tu nombre" autocomplete="off">
+        <div class="bg-dark text-white mt-5 p-2" id="contenido_keyup">
+          Estoy esperando...
+        </div>
+    </div>
+
+    <div class="container my-5">
+            <h2>Evento submit</h2>
+    <form id="formulario">
+        <input type="text" placeholder="Ingresa tu nombre" class="form-control" name="nombre" id="nombre">
+        <button class="btn btn-info" type="submit">Enviar</button>
+    </form>
+    </div>
+
+    <div class="container my-5">
+        <h2>Efectos con jquery</h2>
+        <button class="btn btn-primary">Agregar</button>
+        <button class="btn btn-danger">Quitar</button>
+        <button class="btn btn-warning">Toggle</button>
+
+        <div class="bg-dark text-white my-5" id="resultadoEfecto">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illum, alias repellendus aliquam, ab quisquam rem iste suscipit saepe consequatur laudantium ipsa blanditiis voluptate labore laborum vero. Rerum debitis voluptate unde.</p>
+        </div>
+    </div>
+
+
+
+<script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous">
+</script>
+<script src="app.js"></script>
+</body>
+</html>
